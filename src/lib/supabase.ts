@@ -1,5 +1,5 @@
 console.log("ENV CHECK");
-console.log(import.meta.env);
+console.log(import.meta.env); 
 
 import { createClient } from '@supabase/supabase-js'
 
