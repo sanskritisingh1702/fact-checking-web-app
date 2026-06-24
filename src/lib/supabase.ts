@@ -1,7 +1,7 @@
 console.log("ENV CHECK");
 console.log(import.meta.env); 
 console.log("URL =", import.meta.env.VITE_SUPABASE_URL)
-console.log("KEY =", import.meta.env.VITE_SUPABASE_ANON_KEY?.substring(0,10))
+console.log("KEY =", import.meta.env.VITE_SUPABASE_ANON_KEY?.substring(0,10)) 
 
 import { createClient } from '@supabase/supabase-js'
 
