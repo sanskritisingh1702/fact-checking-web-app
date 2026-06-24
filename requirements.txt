@@ -1,0 +1,36 @@
+# Core Framework
+streamlit==1.38.0
+
+# PDF Processing
+pypdf==4.0.1
+pdfplumber==0.10.3
+
+# Web Search and Verification
+requests==2.31.0
+beautifulsoup4==4.12.3
+tavily-python==0.3.0
+
+# Report Generation
+reportlab==4.1.2
+fpdf==1.7.2
+
+# Data Processing
+pandas==2.2.0
+
+# NLP for Claim Extraction
+spacy==3.7.4
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Logging and Environment
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# Supabase for session persistence
+supabase==2.3.0
+
+# Type hints and validation
+pydantic==2.5.3
