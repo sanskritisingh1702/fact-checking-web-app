@@ -29,4 +29,4 @@ loguru==0.7.2
 supabase==2.3.0
 
 # Type hints and validation
-pydantic-core==2.10.6
+pydantic-core>=2.10.6
